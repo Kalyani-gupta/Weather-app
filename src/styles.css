@@ -1,0 +1,72 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: rgb(102, 89, 102);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+}
+
+div {
+    padding: 5px;
+}
+
+.heading {
+    color: whitesmoke;
+}
+
+.main-app {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    background-color: rgb(43, 4, 39);
+    color: white;
+    border-radius: 10px;
+}
+
+.temp-info {
+    display: flex;
+}
+
+.description {
+    padding-top: 30px;
+    padding-left: 20px;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.location {
+    text-align: center;
+    font-weight: bolder;
+    font-size: large;
+}
+
+.aligned {
+    display: table;
+    position: relative;
+}
+
+.temp {
+    position: relative;
+    vertical-align: middle;   
+    font-size: larger;
+}
+
+.aligned-text {
+    display: table-cell;
+    vertical-align: middle;
+    overflow-wrap: anywhere;
+}
+
+.temp-description {
+    text-transform: capitalize;
+}
+/* style={{display: 'flex', backgroundColor: 'gray'}} */

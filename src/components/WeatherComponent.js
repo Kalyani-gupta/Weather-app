@@ -49,8 +49,7 @@ function WeatherComponent() {
                     setUrl(`https://api.openweathermap.org/data/2.5/weather?lat=${suggestion.latlng.lat}&lon=${suggestion.latlng.lng}&appid=${apiKey}&units=metric`)}
                 }// options = {{appId}}
                 >
-                </AlgoliaPlaces>
-                
+                </AlgoliaPlaces>    
             </div>
             <div>
                 <CurrentWeather weather = {currentWeather}/>
